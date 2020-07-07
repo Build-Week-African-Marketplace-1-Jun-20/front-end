@@ -11,7 +11,7 @@ import { MarketProvider } from './components/context/MarketContext';
 import UpdateItem from './components/actions/UpdateItem'
 
 import axios from 'axios'
-import ItemCard from './components/ItemCard';
+import ItemCard from './components/itemCard';
 
 const App = () => {
   const [products, setProducts] = useState([]);
